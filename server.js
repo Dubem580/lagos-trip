@@ -8,4 +8,4 @@ app.get('trips'), (req, res) => {/* */ }
 app.post('/expense'), (req, res) => {/* */}
 app.get('expenses'), (req, res) => {/* */}
 
-app.listen(3000, () => console.log('server.ready'))
+app.listen(3000, () => console.log('server ready'))
